@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore More</title>
+    <link rel="stylesheet" href="explore_more.css">
+    <script src="explore_more_final_javascript.js"></script>
+</head>
+<body bgcolor="#da9c64">
+
+    <!-- navigation Bar -->
+
+    <div class="navigation">
+        <div class="logo">
+            <!-- image=logo.png -->
+            <h1></h1>
+        </div>
+        <div class="home">
+            <nav class="nav">
+                <a href="Homepage.html">Home</a>
+            </nav>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- carousel and image -->
+
+    <div class="first">
+        <div class="image-wrapper">
+            <div class="white-rectangle">
+            </div>
+            <!-- image=peeps.png -->
+        </div>
+        <div class="container">
+            <div id="fixed-text1"></div>
+            <div class="irregular-shape">
+                <div class="carousel-text" id="carouselText"></div>
+            </div>
+            <div id ="fixed-text2"></div>
+        </div>
+    </div>
+
+    <!-- Search Bar -->
+
+    <div class="search-bar">
+        <span class="location-icon">
+            <!-- image = pindrop.png class= loc_img --> 
+
+        </span>
+    </div>
+
+    <!-- Map Overlay  -->
+
+    <div id="mapOverlay">
+        <button class="close-btn" >✖</button>
+        
+    </div>
+
+    <br>
+
+    <section class="packages" style = " padding:5% 10%; background-color:white">
+        <div class="responsive-text">
+            <div class="heading-box">
+                <h3 class="label"></h6>
+                <h2 class="heading"></h2>
+            </div>
+            <div class="text-box">
+            </div>
+        </div>
+
+        <!-- filter -->
+
+        <div class="filter-container">
+            <div class="filter-wrapper">
+                <button class="filter-button" onclick="toggleFilter()">
+                 <!-- image filter.png Filter Icon -->
+                </button>
+    
+                <form id="filterForm" class="filter-form"> 
+                    <div class="filter-content">
+                        <input type="number" placeholder="Min Budget">
+                        <input type="number" placeholder="Max Budget">
+                        <select id="select1"></select>
+                        </select>
+                    <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="images">
+
+            <div class="box" id="box1">
+                <!-- image   -->
+                <ul class="top">
+                    <li id="lit1"></li>
+                    <li id="lit2"><img src="star12.png" alt="Star icon" style="width: 19px; height: 19px;position:absolute"></li>
+                </ul>
+                <div class="bottom" >
+                    <!-- <time></time> -->
+                    <ul>
+                        <li id = "lid1"></li>
+                        <li id = "lid2"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box" id="box2">
+                <!-- image  -->
+                <ul class="top">
+                    <li id="lit11"></li>
+                    <li id="lit22"><img src="star12.png" alt="Star icon" style="width: 19px; height: 19px;"></li>
+                </ul>
+                <div class="bottom">
+                    <!-- <time></time> -->
+                    <ul>
+                        <li id = "lid11"></li>
+                        <li id = "lid22"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box" id="box3">
+                <!-- image  -->
+                <ul class="top">
+                    <li id="lit111"></li>
+                    <li id="lit222"><img src="star12.png" alt="Star icon" style="width: 19px; height: 19px;"></li>
+                </ul>
+                <div class="bottom">
+                    <!-- <time></time> -->
+                    <ul>
+                        <li id = "lid111"></li>
+                        <li id = "lid222"></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<script>
+    function toggleFilter() {
+        const filterForm = document.getElementById('filterForm');
+        filterForm.classList.toggle('active');
+      }
+</script>
+    
+</body>
+
+</html>

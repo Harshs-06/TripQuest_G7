@@ -1,0 +1,18 @@
+{
+    "Name" : "TripQuest",
+    "explore" : "Explore More",
+    "Group_detail" : ["Available Groups","Check In Groups","Group Requests"],
+    "Details" : ["TripBuddies","Created by : You"],
+    "Group" : "LEAVE GROUP",
+    "Background_img" :"figma.2.png",
+    "Background_text": "Group 271.png",
+    "gname_img" : "gname.svg",
+    "desti_img":"desti.svg",
+    "rupee_img":"rupee.svg",
+    "transport_img":"creategroup.png",
+    "numberofmember_img":"train1.svg",
+    "list":["Night Riders","Mussorie","2999/-","12 Members","train"]
+
+}
+
+

@@ -1,0 +1,65 @@
+{
+    "name" : "TripQuest",
+    "home" : "Home",
+    "h3" : "Making traveling groups easier using ",
+    "GName" : "Group Name",
+    "h5_1" : "Destination",
+    "h5_2" : "Cost of Travel",
+    "h5_3" : "Transport",
+    "h5_4" : "Maximum member",
+    "Grouptext" :"Group Name",
+
+
+
+    "OVT" :["Private Transport" ,"Cab Sharing" ,"Shuttle Services" ,"Railways" ,"Flight" ],
+
+    "cost" : ["number","0.00","price","0"],
+    "max" : ["number","maxNum","0"],
+    "transport" : "Transport",
+    "GroupName" : ["text","Eg. TripBuddies"],
+    "button" : "sumbit",
+    "button_text" : "Create Group",
+    "input_destination" : ["text","places"],
+
+
+    "Value" : ["Agra", "New-Delhi","Jaipur","Mumbai","Goa","Varanasi","Alleppey","Leh-Ladakh","Rishikesh","Shimla","Manali","Jodhpur",
+                "Udaipur","Amritsar","Chennai","Kolkata","Mysore","Bengaluru","Hyderabad","Pondicherry","Darjeeling","Nainital","Mussoorie", "Coorg"  ,
+                "Port-Blair" , "Jaisalmer" ,"Ranthambore" , "McLeod-Ganj" , "Ooty"  ,"Mahabalipuram"  ,"Kodaikanal"  ,"Lonavala"  ,"Ajanta-Ellora"  ,
+                "Nashik"  ,"Bhopal"  , "Khajuraho"  ,"Pushkar"   ,"Mount-Abu" ,"Haridwar"  ,"Dehradun"  ,"Dalhousie"   , "Kullu"  , "Ranchi"  ,
+                "Gangtok"  ,"Guwahati"  ,"Mahabaleshwar"  ,"Kumarakom"  ,"Tirupati"  ,"Puri"  , "Kanchipuram" ,"Madurai"   ,"Srinagar"  ,
+                "Kanyakumari" ,"Rameswaram"  ,"Auli"  ,"Gulmarg" ,"Dharamshala" ,"Havelock-Island" ,"Shillong" ,"Cherrapunjee" ,"Patna" ,"Bodh-Gaya",
+                "Tsomgo-Lake","Gokarna","Rann-Of-Kutch","Dwarka" ,"Sundarbans","Kalimpong" ,"Patan","Udaigiri-Caves","Kailash-Mansarovar","Bhubaneswar",
+                "Silvassa","Lavasa","Pachmarhi","Bikaner","Nagarhole", "Nanda-Devi","Spiti-Valley","Zanskar-Valley","Bundi","Jhansi","Tiruvannamalai",
+                "Bijapur","Alwar","Lonar"],
+
+    
+
+    "Place" :["Agra, Uttar Pradesh "  ,"New Delhi, Delhi "  ,"Jaipur, Rajasthan "  ,"Mumbai, Maharashtra "  ,"Goa "  ,"Varanasi, Uttar Pradesh "  ,
+                "Alleppey, Kerala "  ,"Leh-Ladakh, Jammu & Kashmir " ,"Rishikesh, Uttarakhand " ," Shimla, Himachal Pradesh" ,"Manali, Himachal Pradesh " ,
+                "Jodhpur, Rajasthan " ,"Udaipur, Rajasthan " ,"Amritsar, Punjab " ,"Chennai, Tamil Nadu " ,"Kolkata, West Bengal " ,"Mysore, Karnataka " ,
+                "Bengaluru, Karnataka " ,"Hyderabad, Telangana " ,"Pondicherry, Puducherry " ,"Darjeeling, West Bengal " ,"Nainital, Uttarakhand " ,"Mussoorie, Uttarakhand " ,
+                "Coorg, Karnataka " ,"Port Blair, Andaman & Nicobar Islands " ,"Jaisalmer, Rajasthan " ,"Ranthambore, Rajasthan " ,"McLeod Ganj, Himachal Pradesh " ,"Ooty, Tamil Nadu " ,
+                "Mahabalipuram, Tamil Nadu " ,"Kodaikanal, Tamil Nadu " ,"Lonavala, Maharashtra " ,"Ajanta & Ellora, Maharashtra " ," Nashik, Maharashtra" ,
+                "Bhopal, Madhya Pradesh " , "Khajuraho, Madhya Pradesh " , "Pushkar, Rajasthan " , "Mount Abu, Rajasthan " , "Haridwar, Uttarakhand " , "Dehradun, Uttarakhand " ,
+                "Dalhousie, Himachal Pradesh " ,"Kullu, Himachal Pradesh " ,"Ranchi, Jharkhand " ,"Gangtok, Sikkim " ,"Guwahati, Assam " ,"Mahabaleshwar, Maharashtra " ,
+                "Kumarakom, Kerala " ,"Tirupati, Andhra Pradesh " ,"Puri, Odisha " ,"Kanchipuram, Tamil Nadu " ,"Madurai, Tamil Nadu " ," Srinagar, Jammu & Kashmir" ,"Kanyakumari, Tamil Nadu " ,
+                "Rameswaram, Tamil Nadu " ," Auli, Uttarakhand" ,"Gulmarg, Jammu & Kashmir " ,"Dharamshala, Himachal Pradesh " ," Havelock Island, Andaman" ,
+                "Shillong, Meghalaya" ,"Cherrapunjee, Meghalaya " ,"Patna, Bihar " ,"Bodh Gaya, Bihar " ,"Tsomgo Lake, Sikkim " , "Gokarna, Karn","Rann of Kutch, Gujarat " ,
+                "Dwarka, Gujarat " ,"Sundarbans, West Bengal " ,"Kalimpong, West Bengal " ,"Patan, Gujarat " ,"Udaigiri Caves, Madhya Pradesh " ,"Kailash Mansarovar, Uttarakhand " ,
+                "Bhubaneswar, Odisha " ,"Silvassa, Dadra & Nagar Haveli " ,"Lavasa, Maharashtra " ,"Pachmarhi, Madhya Pradesh " ,"Bikaner, Rajasthan " ,
+                "Nagarhole, Karnataka " ,"Nanda Devi, Uttarakhand " ,"Spiti Valley, Himachal Pradesh " ,"Zanskar Valley, Jammu & Kashmir " ,"Bundi, Rajasthan " ,
+                "Jhansi, Uttar Pradesh " ,"Tiruvannamalai, Tamil Nadu " ,"Bijapur, Karnataka " ,"Alwar, Rajasthan " ,"Lonar, Maharashtra " ],
+
+    "homeicon" : "/home-icon.png",
+    "Groupimage" : "/createGroup/group.png",
+    "Groupimage2" : "/G.png",
+    "destination" :"/dest.png",
+    "rupee" : "/rupee.png",
+    "filter" : "/filter.png",
+    "Create_G" : "Create Group",
+    "transportImg" : "/trans.png",
+    "logo"  : "/logo.png"
+
+
+    
+}

@@ -1,0 +1,221 @@
+{
+    "navigation": {
+        "logo": {
+            "src": "logo.png",
+            "alt": "TripQuest Logo"
+        },
+        "title": "TripQuest",
+        "homeLink": {
+            "href": "Homepage.html",
+            "text": "Home"
+        }
+    },
+
+    "mainContent": {
+        "image": {
+                "src": "peeps.png",
+                "alt": "Group of people on boat"
+        },
+        "container": {
+            "fixedText1": "Experience",
+            "carouselTexts": ["Sustainable", "Friendly", "Wonderful"],
+            "fixedText2": "Group Trips"
+        }
+    },
+
+    "searchBar": {
+        "locationIcon": "pindrop.png",
+        "placeholder": "Anywhere",
+        "buttonText": "Find"
+    },
+
+    "mapOverlay": {
+        "closeButton": "✖",
+        "iframe1": {
+            "src": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4852.726967804635!2d76.81731205346415!3d28.24616492770925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1731296494932!5m2!1sen!2sin",
+            "allowFullscreen": true,
+            "loading": "lazy",
+            "referrerPolicy": "no-referrer-when-downgrade"
+        }
+    },
+
+    "packages":{
+        "starimage":"star12.png",
+        "label":"Tour Packages",
+        "heading":"Top Tour Packages",
+        "text":"Discover top tour packages crafted to fit your budget—embrace adventure, dive into local culture, and create unforgettable experiences without overspending!"    
+    },
+    "States": [
+            "Andhra Pradesh",
+            "Arunachal Pradesh",
+            "Assam",
+            "Bihar",
+            "Chhattisgarh",
+            "Goa",
+            "Gujarat",
+            "Haryana",
+            "Himachal Pradesh",
+            "Jharkhand",
+            "Karnataka",
+            "Kerala",
+            "Madhya Pradesh",
+            "Maharashtra",
+            "Manipur",
+            "Meghalaya",
+            "Mizoram",
+            "Nagaland",
+            "Odisha",
+            "Punjab",
+            "Rajasthan",
+            "Sikkim",
+            "Tamil Nadu",
+            "Telangana",
+            "Tripura",
+            "Uttar Pradesh",
+            "Uttarakhand",
+            "West Bengal"
+        ],
+    
+    "filter":{
+        "image":"filter.png",
+        "placeholdermin":"Min Budget",
+        "placeholdermax":"Max Budget"
+    },
+    
+    "Statesdata":
+        {
+            "Rajasthan": [
+                {
+                    "Name": "Amber Fort, Jaipur",
+                    "Rating": "4.5",
+                    "Date": "22-11-2024",
+                    "datetime": "22 November",
+                    "Price": "₹ 15,000",
+                    "image": "amber_fort.png"
+                },
+                {
+                    "Name": "City Palace, Jaipur",
+                    "Rating": "4.6",
+                    "Date": "22-11-2024",
+                    "datetime": "22 November",
+                    "Price": "₹ 12,000",
+                    "image": "city_palace.png"
+                },
+                {
+                    "Name": "Lake Pichola, Udaipur",
+                    "Rating": "4.8",
+                    "Date": "23-11-2024",
+                    "datetime": "23 November",
+                    "Price": "₹ 18,000",
+                    "image": "pushkar_lake.png"
+                },
+                {
+                    "Name": "Jal Mahal, Jaipur",
+                    "Rating": "4.4",
+                    "Date": "21-11-2024",
+                    "datetime": "21 November",
+                    "Price": "₹ 10,000",
+                    "image": "jal_mahal.png"
+                },
+                {
+                    "Name": "Jaisalmer Fort, Jaisalmer",
+                    "Rating": "4.9",
+                    "Date": "25-11-2024",
+                    "datetime": "25 November",
+                    "Price": "₹ 16,000",
+                    "image": "jaisalmer_fort.png"
+                },
+                {
+                    "Name": "Pushkar Lake, Pushkar",
+                    "Rating": "4.3",
+                    "Date": "26-11-2024",
+                    "datetime": "26 November",
+                    "Price": "₹ 9,500",
+                    "image": "pushkar_lake.png"
+                },
+                {
+                    "Name": "Kumbhalgarh Fort, Rajsamand",
+                    "Rating": "4.6",
+                    "Date": "27-11-2024",
+                    "datetime": "27 November",
+                    "Price": "₹ 13,500",
+                    "image": "kumbhalgarh_fort.png"
+                },
+                {
+                    "Name": "Ranthambore National Park, Sawai Madhopur",
+                    "Rating": "4.7",
+                    "Date": "28-11-2024",
+                    "datetime": "28 November",
+                    "Price": "₹ 15,500",
+                    "image": "ranthambore.png"
+                }
+            ],
+            "Uttarakhand": [
+                {
+                    "Name": "Nainital Lake, Nainital",
+                    "Rating": "4.7",
+                    "Date": "20-12-2024",
+                    "datetime": "20 December",
+                    "Price": "₹ 8,500",
+                    "image": "nainital_lake.png"
+                },
+                {
+                    "Name": "Jim Corbett National Park, Ramnagar",
+                    "Rating": "4.8",
+                    "Date": "21-12-2024",
+                    "datetime": "21 December",
+                    "Price": "₹ 12,000",
+                    "image": "jim_corbett.png"
+                },
+                {
+                    "Name": "Kedarnath Temple, Kedarnath",
+                    "Rating": "4.9",
+                    "Date": "22-12-2024",
+                    "datetime": "22 December",
+                    "Price": "₹ 15,000",
+                    "image": "kedarnath.png"
+                },
+                {
+                    "Name": "Valley of Flowers, Chamoli",
+                    "Rating": "4.6",
+                    "Date": "23-12-2024",
+                    "datetime": "23 December",
+                    "Price": "₹ 10,500",
+                    "image": "valley_flowers.png"
+                },
+                {
+                    "Name": "Rishikesh (Adventure & Rafting), Rishikesh",
+                    "Rating": "4.7",
+                    "Date": "24-12-2024",
+                    "datetime": "24 December",
+                    "Price": "₹ 9,000",
+                    "image": "rishikesh.png"
+                },
+                {
+                    "Name": "Mussoorie (The Queen of Hills), Mussoorie",
+                    "Rating": "4.5",
+                    "Date": "25-12-2024",
+                    "datetime": "25 December",
+                    "Price": "₹ 7,500",
+                    "image": "mussoorie.png"
+                },
+                {
+                    "Name": "Badrinath Temple, Badrinath",
+                    "Rating": "4.8",
+                    "Date": "26-12-2024",
+                    "datetime": "26 December",
+                    "Price": "₹ 13,000",
+                    "image": "badrinath.png"
+                },
+                {
+                    "Name": "Auli (Ski Resort), Auli",
+                    "Rating": "4.9",
+                    "Date": "27-12-2024",
+                    "datetime": "27 December",
+                    "Price": "₹ 14,500",
+                    "image": "auli.png"
+                }
+            ]
+        }
+}
+

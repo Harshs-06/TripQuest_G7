@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Carousel on Irregular Shape</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #da9c64; /* The background color */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+      color: white;
+    }
+
+    .irregular-shape {
+      background-image: url('ellipse.png'); /* Insert your irregular shape image */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 220px; /* Adjust based on your image size */
+      height: 150px; /* Adjust based on your image size */
+      position: relative; /* Necessary for positioning the text inside */
+      margin: 20px auto;
+    }
+
+    .carousel-text {
+      font-size: 24px;
+      font-weight: bold;
+      color: white; /* Adjust text color */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Centers the text */
+      white-space: nowrap; /* Prevents line breaks */
+      animation: changeText 9s infinite; /* Adjust total time (3s per text) */
+    }
+
+    @keyframes changeText {
+      0%, 33.33% {
+        content: "Sustainable"; /* First word */
+        opacity: 1;
+      }
+      33.34%, 66.66% {
+        content: "Friendly"; /* Second word */
+        opacity: 1;
+      }
+      66.67%, 100% {
+        content: "Wonderful"; /* Third word */
+        opacity: 1;
+      }
+    }
+
+    .carousel-text::before {
+      content: "Sustainable";
+      animation: changeText 9s infinite;
+      display: inline-block;
+    }
+
+    .fixed-text {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="fixed-text">Experience</div>
+    <div class="irregular-shape">
+      <div class="carousel-text"></div> <!-- Text appears over the image -->
+    </div>
+    <div class="fixed-text">Group Trips</div>
+  </div>
+</body>
+</html>

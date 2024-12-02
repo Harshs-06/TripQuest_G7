@@ -1,0 +1,23 @@
+{
+    "logo": {
+        "text": "TripQuest",
+        "image": "logo.png"
+    },
+    "navLinks": [
+        {"name": "Home", "url": "#"},
+        {"name": "My Adventures", "url": "#", "submenu": [
+            {"name": "Past Trips", "url": "#"},
+            {"name": "Upcoming Trips", "url": "#"},
+            {"name": "Wish List", "url": "#"}
+        ]},
+        {"name": "Testimonials", "url": "#"},
+        {"name": "Join Group", "url": "#"},
+        {"name": "About Us", "url": "#"}
+    ],
+    "actions": [
+        {"type": "button", "name": "Notify Me", "url": "#"},
+        {"type": "button", "name": "Contact Us", "url": "#"},
+        {"type": "button", "name": "Sign Up"},
+        {"type": "button", "name": "Create a Group"}
+    ]
+}

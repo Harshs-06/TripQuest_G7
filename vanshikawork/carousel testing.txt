@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Carousel (No JavaScript)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #da9c64; /* The background color */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+      color: white;
+    }
+
+    .ellipse {
+      border: 2px solid white;
+      border-radius: 50% / 100%;
+      width: 220px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px auto;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .carousel-text {
+      font-size: 24px;
+      font-weight: bold;
+      position: absolute;
+      animation: changeText 9s infinite; /* Adjust total time (3s per text) */
+    }
+
+    @keyframes changeText {
+      0%, 33.33% {
+        content: "Sustainable"; /* First word appears */
+        opacity: 1;
+      }
+      33.34%, 66.66% {
+        content: "Friendly"; /* Second word appears */
+        opacity: 1;
+      }
+      66.67%, 100% {
+        content: "Wonderful"; /* Third word appears */
+        opacity: 1;
+      }
+    }
+
+    /* Using CSS pseudo-elements to show the text */
+    .carousel-text::before {
+      content: "Sustainable";
+      animation: changeText 9s infinite;
+      display: inline-block;
+    }
+
+    .fixed-text {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="fixed-text">Experience</div>
+    <div class="ellipse">
+      <div class="carousel-text"></div>
+    </div>
+    <div class="fixed-text">Group Trips</div>
+  </div>
+</body>
+</html>

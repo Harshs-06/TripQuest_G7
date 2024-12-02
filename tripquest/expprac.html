@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Text Example</title>
+    <style>
+        .carousel-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-text" id="carouselText">Sustainable</div>
+
+    <script>
+        // JavaScript Carousel Text
+        const carouselTextElement = document.getElementById("carouselText");
+        const carouselTexts = ["Sustainable", "Friendly", "Wonderful"];
+        let currentIndex = 0;
+
+        function updateCarouselText() {
+            // Increment index and reset if it reaches the end of the array
+            currentIndex = (currentIndex + 1) % carouselTexts.length;
+            // Update the text content
+            carouselTextElement.textContent = carouselTexts[currentIndex];
+        }
+
+        // Change text every 3 seconds (3000 milliseconds)
+        setInterval(updateCarouselText, 3000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+#gnameimg,#destimg,#costimg,#maxmemimg,#transportimg{
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+    
+
+}
+.gname,.dest,.cost,.maxmem,.transport{
+    height: 20px;
+    width:200px;
+    
+}
+
+
+
+/* Navigation Buttons */
+#img2{
+    /* margin-left: 100px;
+    margin-top: 200px; */
+    /* position: relative; */
+    z-index: 2000;
+    position:absolute;
+    top:50px;
+    left: 35px;
+}
+#image{
+    /* padding: 20px 20px; */
+    height: 600px;
+    width: 1490px;
+    z-index: 1000;
+    position:absolute;
+    border-radius: 10px;
+    /* left:-px; */
+
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+  margin-top:830px;
+  gap: 10px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  border: 2px solid #a0522d;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #a0522d;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-button.active {
+  background-color: #272721;
+  color: white;
+  border-color: #272721;
+}
+
+.tab-button:hover {
+  background-color: #272721;
+  color: white;
+}
+
+.grps {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.Group {
+  background: linear-gradient(135deg, #4b4e32, #2c2d1e);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: "Kameron", serif;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Group:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.Group h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #f5f5f5;
+}
+
+.Group p {
+  margin: 5px 0;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+.Group button {
+  font-family: "Kameron", serif;
+  height: 40px;
+  width: 100px;
+  margin: 10px 5px 0 0;
+  border: none;
+  border-radius: 10px;
+  background: #8f9779;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.Group button:hover {
+  background: #a8b788;
+  transform: scale(1.05);
+}
+
+.Group button:active {
+  background: #6f755a;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}

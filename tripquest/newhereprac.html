@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripQuest</title>
+    <link rel="stylesheet" href="newhereprac.css">
+
+</head>
+<body bgcolor="#da9c64">
+    <!-- Navigation -->
+    <div class="navigation">
+        <div class="logo">
+            <img src="logo.png" alt="TripQuest Logo">
+            <h1>TripQuest</h1>
+        </div>
+        <div class="home">
+            <nav class="nav">
+                <a href="Homepage.html">Home</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Horizontal Rule -->
+    <hr color="white">
+
+    <!-- Main Content -->
+    <div class="first">
+        <div class="image-wrapper">
+            <div class="white-rectangle"></div>
+            <img src="peeps.png" alt="Group of people on boat" class="rotated-image">
+        </div>
+
+        <div class="container">
+            <div id="fixed-text">Experience</div>
+            <div class="irregular-shape">
+                <div class="carousel-text" id="carouselText">Sustainable</div>
+            </div>
+            <div id="fixed-text2">Group Trips</div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <span class="location-icon">
+            <button id="showMapButton"><img class="loc_img" src="pindrop.png"></button></span>
+        <input list="state-list" class="search-input" type="text" placeholder="Anywhere">
+        <datalist id="state-list">
+            <option value="Andhra Pradesh">
+            <option value="Arunachal Pradesh">
+            <option value="Assam">
+            <option value="Bihar">
+            <option value="Chhattisgarh">
+            <option value="Goa">
+            <option value="Gujarat">
+            <option value="Haryana">
+            <option value="Himachal Pradesh - Manali">
+            <option value="Jharkhand">
+            <option value="Karnataka">
+            <option value="Kerala">
+            <option value="Madhya Pradesh">
+            <option value="Maharashtra">
+            <option value="Manipur">
+            <option value="Meghalaya">
+            <option value="Mizoram">
+            <option value="Nagaland">
+            <option value="Odisha">
+            <option value="Punjab">
+            <option value="Rajasthan">
+            <option value="Sikkim">
+            <option value="Tamil Nadu">
+            <option value="Telangana">
+            <option value="Tripura">
+            <option value="Uttar Pradesh">
+            <option value="Uttarakhand">
+            <option value="West Bengal">
+        </datalist>
+        <button>Find</button>
+    </div>
+
+    <!-- Map Overlay with a close button -->
+    <div id="mapOverlay">
+        <button class="close-btn" onclick="closeMap()">✖</button>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4852.726967804635!2d76.81731205346415!3d28.24616492770925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1731296494932!5m2!1sen!2sin"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <section class="packages">
+        <div class="responsive-text">
+            <div class="heading-box">
+                <h3 class="label">Tour Packages</h6>
+                <h2 class="heading">Our Tourist Destination</h2>
+            </div>
+            <div class="text-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus at eligendi cumque consequatur doloribus dolores!</p>
+            </div>
+        </div>
+<div class="filter-container">
+  <div class="filter-wrapper">
+    <button class="filter-button" onclick="toggleFilter()">
+      <img src="filter.png" alt="Filter Icon">
+    </button>
+    
+    <form id="filterForm" class="filter-form">
+      <div class="filter-content">
+        <input type="number" placeholder="Min Budget">
+        <input type="number" placeholder="Max Budget">
+        <select>
+          <option value="">Select State</option>
+          <option value="bali">Bali</option>
+          <option value="java">Java</option>
+          <option value="solo">Solo</option>
+        </select>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+        <div class="images">
+
+            <div class="box1" id="box1">
+                <img src="nainital_lake.png" alt="Nainital Lake, Nainital">
+                <ul class="top">
+                    <li id="lit1">7 days</li>
+                    <li id="lit2"><img src="star12.png" alt="Star icon" style="width: 19px; height: 19px;"> 4.9</li>
+                </ul>
+                <div class="bottom" id="b1">
+                    <time datetime="2024-10-27">27 october</time>
+                    <ul>
+                        <li id = "lid1">bali tour packages</li>
+                        <li id = "lid2">$285</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box2" id="box2">
+                <img src="kedarnath.png" alt="Kedarnath Temple, Kedarnath">
+                <ul class="top">
+                    <li id="lit11">5 days</li>
+                    <li id="lit22"><img src="star12.png" alt="Star icon" style="width: 19px; height: 19px;">  4.9</li>
+                </ul>
+                <div class="bottom" id="b2">
+                    <time datetime="2024-10-27">27 october</time>
+                    <ul>
+                        <li id = "lid11">java tour packages</li>
+                        <li id = "lid22">$192</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box3" id="box3">
+                <img src="kumbhalgarh_fort.png" alt="Kumbhalgarh Fort, Rajsamand">
+                <ul class="top">
+                    <li id="lit111">3 days</li>
+                    <li id="lit222"><img src="star12.png" alt="Star icon" style="width: 19px; height: 19px;">  4.9</li>
+                </ul>
+                <div class="bottom" id="b3">
+                    <time datetime="2024-10-27">27 october</time>
+                    <ul>
+                        <li id = "lid111">solo tour packages</li>
+                        <li id = "lid222">$235</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        // Function to open the map overlay
+        document.getElementById('showMapButton').addEventListener('click', function() {
+            document.getElementById('mapOverlay').style.display = 'flex';
+        });
+
+        // Function to close the map overlay
+        function closeMap() {
+            document.getElementById('mapOverlay').style.display = 'none';
+        }
+	function toggleFilter() {
+  	const filterForm = document.getElementById('filterForm');
+  	filterForm.classList.toggle('active');
+	}
+        // JavaScript Carousel Text
+        const carouselTextElement = document.getElementById("carouselText");
+        const carouselTexts = ["Sustainable", "Friendly", "Wonderful"];
+        let currentIndex = 0;
+
+        function updateCarouselText() {
+            // Increment index and reset if it reaches the end of the array
+            currentIndex = (currentIndex + 1) % carouselTexts.length;
+            // Update the text content
+            carouselTextElement.textContent = carouselTexts[currentIndex];
+        }
+
+        // Change text every 3 seconds (3000 milliseconds)
+        setInterval(updateCarouselText, 3000);
+    </script>
+</body>
+</html>
+
+    

@@ -1,0 +1,6 @@
+data = `{}`;
+
+let obj = JSON.parse(data);
+
+let d2 = JSON.stringify(obj);
+

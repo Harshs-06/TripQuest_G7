@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripQuest</title>
+    <link rel="stylesheet" href="hereprac.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body bgcolor="#da9c64">
+    <!-- Navigation -->
+    <div class="navigation">
+        <div class="logo">
+            <img src="logo.png" alt="TripQuest Logo">
+            <h1>TripQuest</h1>
+        </div>
+        <div class="home">
+            <nav class="nav">
+                <a href="Homepage.html">Home</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Horizontal Rule -->
+    <hr color="white">
+
+    <!-- Main Content -->
+    <div class="first">
+        <div class="image-wrapper">
+            <div class="white-rectangle"></div>
+            <img src="peeps.png" alt="Group of people on boat" class="rotated-image">
+        </div>
+
+        <div class="container">
+            <div class="fixed-text">Experience</div>
+            <div class="irregular-shape">
+                <div class="carousel-text" id="carouselText">Sustainable</div>
+            </div>
+            <div class="fixed-text">Group Trips</div>
+        </div>
+    </div>
+    <script>
+        // JavaScript Carousel Text
+        const carouselTextElement = document.getElementById("carouselText");
+        const carouselTexts = ["Sustainable", "Friendly", "Wonderful"];
+        let currentIndex = 0;
+
+        function updateCarouselText() {
+            // Increment index and reset if it reaches the end of the array
+            currentIndex = (currentIndex + 1) % carouselTexts.length;
+            // Update the text content
+            carouselTextElement.textContent = carouselTexts[currentIndex];
+        }
+
+        // Change text every 3 seconds (3000 milliseconds)
+        setInterval(updateCarouselText, 3000);
+    </script>
+
+
+
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <span class="location-icon">
+            <button id="showMapButton"><img class="loc_img" src="pindrop.png"></button></span>
+        <input list="state-list" class="search-input" type="text" placeholder="Anywhere">
+        <datalist id="state-list">
+            <option value="Andhra Pradesh">
+            <option value="Arunachal Pradesh">
+            <option value="Assam">
+            <option value="Bihar">
+            <option value="Chhattisgarh">
+            <option value="Goa">
+            <option value="Gujarat">
+            <option value="Haryana">
+            <option value="Himachal Pradesh - Manali">
+            <option value="Jharkhand">
+            <option value="Karnataka">
+            <option value="Kerala">
+            <option value="Madhya Pradesh">
+            <option value="Maharashtra">
+            <option value="Manipur">
+            <option value="Meghalaya">
+            <option value="Mizoram">
+            <option value="Nagaland">
+            <option value="Odisha">
+            <option value="Punjab">
+            <option value="Rajasthan">
+            <option value="Sikkim">
+            <option value="Tamil Nadu">
+            <option value="Telangana">
+            <option value="Tripura">
+            <option value="Uttar Pradesh">
+            <option value="Uttarakhand">
+            <option value="West Bengal">
+        </datalist>
+        <button>Find</button>
+    </div>
+
+    <!-- Map Overlay with a close button -->
+    <div id="mapOverlay">
+        <button class="close-btn" onclick="closeMap()">✖</button>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4852.726967804635!2d76.81731205346415!3d28.24616492770925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1731296494932!5m2!1sen!2sin"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+    <script>
+        // Function to open the map overlay
+        document.getElementById('showMapButton').addEventListener('click', function() {
+            document.getElementById('mapOverlay').style.display = 'flex';
+        });
+
+        // Function to close the map overlay
+        function closeMap() {
+            document.getElementById('mapOverlay').style.display = 'none';
+        }
+    </script>
+
+    <section class="packages">
+        <div class="responsive-text">
+            <div class="heading-box">
+                <h3 class="label">Tour Packages</h6>
+                <h2 class="heading">Our Tourist Destination</h2>
+            </div>
+            <div class="text-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus at eligendi cumque consequatur doloribus dolores!</p>
+            </div>
+        </div>
+        <div class="images">
+
+            <div class="box">
+                <img src="package1.jpg" alt="">
+                <ul class="top">
+                    <li>7 days</li>
+                    <li><i class="fa-solid fa-star"></i>  4.9</li>
+                </ul>
+                <div class="bottom">
+                    <time datetime="2024-10-27">27 october</time>
+                    <ul>
+                        <li>bali tour packages</li>
+                        <li>$285</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+                <img src="package2.jpg" alt="">
+                <ul class="top">
+                    <li>5 days</li>
+                    <li><i class="fa-solid fa-star"></i>  4.9</li>
+                </ul>
+                <div class="bottom">
+                    <time datetime="2024-10-27">27 october</time>
+                    <ul>
+                        <li>java tour packages</li>
+                        <li>$192</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+                <img src="package3.jpg" alt="">
+                <ul class="top">
+                    <li>3 days</li>
+                    <li><i class="fa-solid fa-star"></i>  4.9</li>
+                </ul>
+                <div class="bottom">
+                    <time datetime="2024-10-27">27 october</time>
+                    <ul>
+                        <li>solo tour packages</li>
+                        <li>$235</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+</body>
+</html>
+
+    

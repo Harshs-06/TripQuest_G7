@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #E8A85B;
+}
+
+.packages .images {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+.packages .images .box {
+    width: 100%;
+    height: 40rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.packages .images .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.packages .images .box .top {
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: rgb(57, 30, 212);
+    list-style: none;
+}
+
+.packages .images .box .top li {
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    border-radius: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.packages .images .box .bottom {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    width: calc(100% - 2rem);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.packages .images .box .bottom time {
+    color: #ddd;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.packages .images .box .bottom ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style: none;
+    margin-top: .5rem;
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+.filter-form {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid #b55428;
+    overflow: hidden;
+    width: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    white-space: nowrap;
+  }
+  
+  .filter-form.active {
+    width: 800px;  /* Increased from 600px to 800px */
+    opacity: 1;
+    padding: 10px 20px;
+  }
+  
+  .filter-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  .filter-content input,
+  .filter-content select {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    min-width: 160px;  /* Increased from 120px to 160px */
+  }
+  
+  .filter-content button {
+    background-color: #8c8282;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .filter-content button:hover {
+    background-color: #706767;
+  }
+
+option{
+  color: black;
+}
+
+.optionState {
+  color:black;
+}

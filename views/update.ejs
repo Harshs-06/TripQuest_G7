@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Group Details</title>
+
+
+    <style>
+       body {
+  font-family: "Kameron", serif;
+  background: #f4f4f9;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: #4b4e32; /* Matching your uploaded color */
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+.form-container h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: white;
+  margin: 10px 0 5px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+input,
+select {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  outline: none;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input:focus,
+select:focus {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background: #6b705c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #a3b18a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  background: #87986a;
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Update Group Details</h1>
+        <form id="updateForm" onsubmit="updateHandler(event)">
+          <label for="groupName">Group Name</label>
+          <input type="text" id="groupName" placeholder="Enter group name" required />
+      
+          <label for="destination">Destination</label>
+          <input type="text" id="destination" placeholder="Enter destination" required />
+      
+          <label for="cost">Cost</label>
+          <input type="text" id="cost" placeholder="Enter cost" required />
+      
+          <label for="members">Total Members</label>
+          <input type="text" id="members" placeholder="Enter total members" required />
+      
+          <label for="transport">Transport Mode</label>
+          <select id="transport" required name="transportMode">
+            <option value="Shuttle Services">Shuttle Services</option>
+            <option value="Cab Sharing">Cab Sharing</option>
+            <option value="Train">Train</option>
+            <option value="Bus">Bus</option>
+            <option value="Flight">Bus</option>
+          </select>
+      
+          <button type="submit">Update Group</button>
+        </form>
+      </div>
+      
+      
+</body>
+<script src="/avai_grp/update.js"></script>
+</html>

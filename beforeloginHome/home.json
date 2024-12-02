@@ -1,0 +1,192 @@
+{
+   "navigationBar":{
+    "title":{
+        "logo":"/beforeloginHome/logo.png",
+        "name":"TripQuest"
+    },
+    "home":{
+        "logo":"/beforeloginHome/home-icon.png",
+        "name":"Home"
+    },
+    "adventure":{
+        "logo":"/beforeloginHome/adventure.png",
+        "name":"My Adventures"
+    },
+    "testimonial":{
+        "logo":"/beforeloginHome/testimonials.png",
+        "arrow":"testimonialsDown.png",
+        "name":"Testimonials",
+        "arrowRead":"Read Reviews",
+        "arrowWrite":"Write a review"
+    },
+    "joinGroup":{
+        "logo":"/beforeloginHome/join.png",
+        "name":"Join Group"
+    },
+    "aboutUs":{
+        "logo":"/beforeloginHome/about.png",
+        "name":"About Us"
+    },
+    "notifyMe":{
+        "logo":"/beforeloginHome/notify.png",
+        "name":"Notify Me"
+    },
+    "contactUs":{
+        "logo":"/beforeloginHome/contact.png",
+        "name":"Contact Us"
+    },
+    "signUpButton":{
+        "logo":"/beforeloginHome/signup.png",
+        "name":"Sign Up"
+    },
+    "createGroupButton":{
+        "logo":"/beforeloginHome/creategroup.png",
+        "name":"Create a group"
+    }
+   } ,
+
+   "carosuelImages":["/beforeloginHome/jaipur.png","/beforeloginHome/pondicherry.png","/beforeloginHome/gonavali.png","/beforeloginHome/manali.png","/beforeloginHome/ladakh.png","/beforeloginHome/meghalaya.png"] ,
+
+   "monthTimeline":{
+    "monthName":[["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"],"TimeLine"],
+    "places":{
+        "kerala":{
+            "image":"/beforeloginHome/placesImage/kerala.png",
+            "title":"Kerala",
+            "subtitle":"God's own country",
+            "description":"A popular tourist destination, Kerala woos you with its crystal-clear lagoons, pristine beaches, misty hills and sprawling wildlife sanctuaries. The exotic culture and local cuisine further adds up to its charm.",
+            "date":"Nov ,20 Onwards"
+        },
+        "srinagar":{
+            "image":"/beforeloginHome/placesImage/srinagar.png",
+            "title":"Srinagar , Jammu and Kashmir",
+            "subtitle":"Pradise on the banks of Jhelum",
+            "description":"Jahangir's 'heaven on earth', Srinagar offers the picturesque Dal Lake, breath-taking mountain views, stunning Mughal gardens and sprawling orchards.",
+            "date":""
+        },
+        "chikmangalur":{
+            "image":"/beforeloginHome/placesImage/chik.png",
+            "title":"Chikmagalur , Karnataka",
+            "subtitle":"Lush Green Hill Station in Karnataka",
+            "description":"A hill station at the foothills of the Mullayanagiri peak in the Western Ghats in Karnataka, Chikmagalur entices with trekking trails, coffee plantations, rivers, waterfalls, temples and wildlife.",
+            "date":""
+        },
+        "rishikesh":{
+            "image":"/beforeloginHome/placesImage/rishi.png",
+            "title":"Rishikesh , Uttarakhand",
+            "subtitle":"Adventure Hub of Uttarakhand",
+            "description":"Known as the 'Yoga Capital of the World', Rishikesh is aserene Himalayan town nestled on the banks of River Ganges. It is famous for its ancient temples, hippiecafes  and dare-devil adventure sports.",
+            "date":""
+        },
+        "jaipur":{
+            "image":"/beforeloginHome/placesImage/jaipur.png",
+            "title":"Jaipur , Rajasthan",
+            "subtitle":"The capital and the largest city of Rajasthan",
+            "description":"Fondly known as the ‘Pink City’ and now declared as a UNESCO World Heritage Site, Jaipur’s historic forts, majestic palaces and ancient temples make it a perfect royal getaway in the heart of Aravallis.",
+            "date":""
+        },
+
+        
+        "jagannath":{
+            "image":"/beforeloginHome/placesImage/jag.png",
+            "title":"Shree Jagannath Temple",
+            "subtitle":"A Char Dham Site",
+            "description":"Believed to be the divine abode of Lord Vishnu, Lord Balaram and Goddess Subhadra, this legendary 12th century edifice is the primary tourist attraction in Puri.",
+            "date":""
+        },
+        "sethan":{
+            "image":"/beforeloginHome/placesImage/sethan.png",
+            "title":"Sethan Valley",
+            "subtitle":"A serene Himalayan village with picturesque landscapes",
+            "description":"Sethan Valley is a tranquil village nestled in the Himalayas, near Manali. It offers a peaceful escape from the bustling tourist spots.",
+            "date":""
+        },
+        "himvalley":{
+            "image":"/beforeloginHome/placesImage/sethan.png",
+            "title":"Himvalley Amusement & Cultural Park",
+            "subtitle":"Amusement park with snow mounts",
+            "description":"Himvalley is an amusement park in Manali known for its rides, cultural programmes, food court and is an ideal destination.",
+            "date":""
+        },
+        "goa":{
+            "image":"/beforeloginHome/placesImage/goa.png",
+            "title":"Baga beach, Goa",
+            "subtitle":"Hippie beach shacks",
+            "description":"One of the most popular beaches in Goa, Baga Beach offers quirky beach-side shacks and a number of thrilling water sports.",
+            "date":""
+        },
+        "bk":{
+            "image":"/beforeloginHome/placesImage/bk.png",
+            "title":"Brahma Kumaris Ashram Mount Abu",
+            "subtitle":"Revered Spiritual Headquarters",
+            "description":"Brahma Kumaris Ashram Mount Abu is the headquarters of the spiritual organization founded in the 1930s by Brahma Baba. It is a famous retreat for education and practices.",
+            "date":""
+        }
+        
+    }
+   },
+
+   "exploreMore":{
+    "title":"Discover Your Next Adventure",
+    "subtitle":"Join travel groups and share your experiences",
+    "image":"/beforeloginHome/ex.png",
+    "button":{
+        "name":"Explore More",
+        "arrow":"/beforeloginHome/exploreArrow.png"
+    }
+   },
+
+   "aboutUs" :{
+      "title":"About Us",
+     "description":"Welcome to our travel community platform. We aim to connect adventurous souls who wish to explore the world together. Join a group, share your experiences, and find the perfect travel companions for your next trip. With detailed group information, including itineraries and admin contacts, planning your adventure has never been easier.",
+     "eyeImage":"",
+     "personImage":"",
+     "contributors":{
+        "title":"Site Contributors",
+        "names":["Harsh Soni","Vanshika Mehlawat","Pratima Yadav"]
+     }
+   },
+
+   "testimonials":{
+    "title":"TESTIMONIALS",
+    "people":["/beforeloginHome/jane.png","/beforeloginHome/parakeet.png","/beforeloginHome/emily.png","/beforeloginHome/justin.png","/beforeloginHome/selena.png"]
+       
+   }, 
+   
+   "footer":{
+    "title":"TripQuest",
+    "location":{
+        "mapPoint":"location.png",
+        "place":"BML Munjal University"
+    },
+    "phone":{
+        "icon":"/beforeloginHome/call.png",
+        "number":"1234-365-978"
+    },
+    "copyright":"Copyright 2024 TripQuest . All rights reserved",
+    "socialMedia":{
+        "facebook":"facebook.png",
+        "x":"x.png",
+        "in":"in.png",
+        "instagram":"instagram.png",
+        "youtube":"youtube.png"
+    },
+    "signing":{
+        "title":"Sign up to travel efficiently",
+        "subtitle":"Put yourself in the know and receive the most exclusive offers before anyone else",
+        "input":{
+            "name":{
+                "image":"/beforeloginHome/user.png",
+                "placeholder":"Your Name"
+            },
+            "email":{
+                "image":"/beforeloginHome/email.png",
+                "placeholder":"Your Email"
+            }
+        },
+        "buttonText":"Submit"
+    },
+    "more":["Legal Stuff" , "Privacy Policy" ,"Manage Cookies" , "Website Accessibility"]
+   }
+}
+

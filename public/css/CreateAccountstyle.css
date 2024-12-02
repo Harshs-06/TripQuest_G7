@@ -1,0 +1,252 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+}
+
+body {
+    background-image: url("bgimg.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed; 
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px;
+    max-width: 1440px;
+    max-height:790;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-button img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.features {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+    width: 540px;
+    height: 331px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-right: 110px;
+    margin-top:70px;
+}
+
+.features-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-right: 110px;
+
+}
+
+.features-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #1B3798;
+}
+
+.features-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features-content ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.features-content ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.registration-form {
+    border-radius: 8px;
+    padding: 30px;
+    position: relative;
+    margin-left: 20px;
+    width: 590px;
+    max-height: 640px;
+}
+
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    width: 529px;
+    height: 80px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    margin-right:40px;
+    margin-bottom:20px;
+    
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+}
+
+.registration-form h2 {
+    font-size: 28px;
+    text-align: left;
+    color: #896A2E; 
+    margin-left: 90px; 
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group {
+    width: 48%;
+    margin-bottom: 20px;
+    margin-top: 3px;
+    position: relative;
+}
+
+.form-group label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: #fff;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #896A2E; 
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #896A2E; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form-group input::placeholder {
+    color: #ccc;
+    font-style: italic;
+}
+
+.mobile-input {
+    display: flex;
+    align-items: center;
+}
+
+.country-code {
+    background: #f0f0f0;
+    padding: 10px;
+    border: 2px solid #8B4513;
+    border-radius: 5px 0 0 5px;
+}
+
+.mobile-input input {
+    border-radius: 0 5px 5px 0;
+}
+
+.form-remember label {
+    color: #532810;
+    font-weight: 900;
+}
+
+.form-remember {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+.form-remember input {
+    margin-right: 10px; 
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #886A3C;
+    border-radius: 50%;
+    position: relative;
+}
+
+.form-remember input:checked::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border-color: #896A2E;
+    background-color: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    accent-color: #896A2E;
+}
+
+.form-remember input:checked {
+    background-color: #896A2E;
+    border: none;
+}
+
+.register-btn {
+    background: #896A2E;
+    color: #fff;
+    font-size:20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.register-btn:hover {
+    background: 99620F;
+}
+
+
+.already{
+    color: #532810;
+    font-weight:400px;
+}
+p {
+    text-align: center;
+}
+
+p a {
+    color: #8B4513;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
