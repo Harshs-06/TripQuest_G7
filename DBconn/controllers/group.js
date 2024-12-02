@@ -87,17 +87,18 @@ const delete_group = async (req,res)=>{
 
 const update_group = async (req,res)=>{
     try{
-        const gid= req.params.gid;
+        const {gid}= req.params;
+        const data= await group.findById(gid);
         const {GroupName,Destination,Cost,Members,Transport} = req.body;
 
         const modify = await group.findByIdAndUpdate(
             {_id:gid},
             {
-                GroupName,
-                Destination,
-                Cost,
-                Members,
-                Transport
+                GroupName:GroupName||data.GroupName,
+                Destination:Destination||data.Destination,
+                Cost:Cost||data.Cost,
+                Members:Members||data.Members,
+                Transport:Transport||data.Transport
             },
             {new:true}
         );

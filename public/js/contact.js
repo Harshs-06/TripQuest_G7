@@ -1,5 +1,4 @@
-let url = "/contactUs/contact.json";
-fetch(url)
+fetch("/contact.json")
 .then(response => response.json())
 .then(jsObject=>{console.log(jsObject);
 
@@ -17,12 +16,13 @@ let imgLook = document.querySelector(".imgLook") ;
 
 
 let webName = document.createElement('h1');
+webName.className="title"
 webName.textContent =jsObject.name ;
 navigationBar.appendChild(webName);
 
 let home = document.createElement('span');
 let homeImg = document.createElement('img');
-homeImg.setAttribute('src','home-icon.png');
+homeImg.setAttribute('src','/assests/home-icon.png');
 homeImg.setAttribute('width','31');
 homeImg.setAttribute('height','30');
 home.appendChild(homeImg);
@@ -34,7 +34,7 @@ homePage.appendChild(home);
 
 navigationBar.appendChild(homePage);
 homePage.addEventListener('click',function(){
-    location.href="/beforeloginHome/home.html";
+    location.href="/";
 });
 
 
@@ -97,7 +97,7 @@ imgLook.appendChild(image);
 let style  = document.createElement('style');
 style.innerHTML = `
 @font-face {
-        font-family: 'MaShanZheng';
+        font-family: MaShanZheng;
         src: url('MaShanZheng.ttf');
     }
 @font-face {
@@ -160,7 +160,7 @@ position:relative;
 top:-40px;
 `;
 webName.style.cssText = `
-font-family:'MaShanZheng';
+font-family:MaShanZheng;
 font-size:53px;
 color: #183D4B;
 font-weight: 500;
@@ -192,7 +192,7 @@ top:-140px;
 color:#4A4A4A;
 `
 titleChi1.style.cssText =`
-font-family:'katibeh'; 
+font-family:katibeh; 
 font-size:45px; 
 `
 titleChi2.style.cssText = `

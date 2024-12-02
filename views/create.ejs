@@ -4,25 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Your Group</title>
-    <link rel="stylesheet" href="create.css">
-    <script src="create.js" defer></script>
+    <link rel="stylesheet" href="css/create.css">
+    <script src="/js/create.js" defer></script>
 </head>
 <body>
 
-    <span class="navitem logotext"> 
-        <!-- <span id="logo"><img src="logo.png" width="78" height="88"></span> -->
-        <h1 id="tripquest">TripQuest</h1>
-    </span>
-    <a href="/beforeloginHome/home.html" class="home"  style="text-decoration: none;">
-        <span class="navitem below ">
-            <img src="home-icon.png" width="31" height="30" class="nav-icons">
-            <span class="icon-text">Home</span>
-        </span>
-    </a>
+    <%-include('partials/header2') %>
     
     <span id="whole">
         <span id="group">
-        <span><img src="group.png" width="786" height="491" class="vec"></span>
+        <span><img src="/assests/group.png" width="786" height="491" class="vec"></span>
             <span id="text">
             <h3>Making traveling groups easier using</h3>
             <h4>TripQuest</h4>
@@ -32,12 +23,12 @@
         <span id="details">
             <form id="createForm" >
                 <span id="groupName">
-                    <img src="G.png" width="24" height="24">
+                    <img src="/assests/G.png" width="24" height="24">
                     <h5>Group Name</h5>
                     <input type="text" placeholder="Eg. TripBuddies" required id="name">
                 </span>
                 <span id="destination">
-                    <img id="img1" src="dest.png" width="24" height="24">
+                    <img id="img1" src="/assests/dest.png" width="24" height="24">
                     <h5>Destination</h5>
                     <input type="text" list="places" required id="dest">
                     <datalist id="places">
@@ -59,17 +50,17 @@
                     </span>
                 </span> -->
                 <span id="cost">
-                    <img src="rupee.png" width="24" height="24">
+                    <img src="/assests/rupee.png" width="24" height="24">
                     <h5>Cost of Travel</h5>
                     <input type="text" placeholder="0.00" required  id="costOfTravel">
                 </span>
                 <span id="max">
-                    <img src="filter.png" width="24" height="24">
+                    <img src="/assests/filter.png" width="24" height="24">
                     <h5>Max. Members</h5>
                     <input type="text" id="maxNum" required  >
                 </span>
                 <span id="transport">
-                    <img src="trans.png" width="24" height="24">
+                    <img src="/assests/trans.png" width="24" height="24">
                     <h5>Transport</h5>
                     <input type="text" list="transportation" required id="modeOfTransport">
                     <datalist id="transportation">

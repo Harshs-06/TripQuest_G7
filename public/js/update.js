@@ -10,7 +10,7 @@ async function updateHandler(event){
         })
         const data = await res.json();
         console.log('response',data);
-        window.location.href="/avai_grp/avail_grp.html";
+        location.href="/avail_grp";
         localStorage.clear('gid');
     }catch(err){
         console.error('Error in updating group:',err.message);

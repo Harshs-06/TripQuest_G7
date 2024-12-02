@@ -27,6 +27,6 @@ app.get("/",(req,res)=>{
 
 app.listen(port,()=>{
     console.log("server is connected");
-    console.log(`http://127.0.0.1:5100/beforeloginHome/home.html`)
+    // console.log(`http://127.0.0.1:5100/beforeloginHome/home.html`)
 })
 

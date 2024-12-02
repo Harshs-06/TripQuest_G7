@@ -15,7 +15,7 @@
 // setInterval(nextSlide,3000);
 // showSlide(currentSlide);
 
-fetch("/beforeloginHome/home.json")
+fetch("/home.json")
 .then(response=>response.json())
 .then(jsObject=>{
 
@@ -132,7 +132,7 @@ contact.insertAdjacentElement('afterbegin',contactImage);
 let contactText = document.querySelector(".contact span");
 contactText.textContent = jsObject.navigationBar.contactUs.name;
 contact.addEventListener('click',function() {
-    location.href="/contactUs/contact.html";
+    location.href="/contact";
 })
 
 let home = document.querySelector(".homeSpan");
@@ -177,7 +177,7 @@ adtr.addEventListener('click',function(){
     
 
     let wimg = document.createElement('img');
-    wimg.src = "/beforeloginHome/warn.png";
+    wimg.src = "/assests/warn.png";
     wimg.width=35;
     wimg.height=35;
     wimg.style.cssText=`
@@ -299,7 +299,7 @@ testiarrow.addEventListener('mouseenter', function() {
             reviewpage.style.justifyContent="center";
             reviewpage.style.alignItems="center";
             let cancel = document.createElement('img');
-            cancel.src = "/beforeloginHome/cancel.png";
+            cancel.src = "/assests/cancel.png";
             cancel.width="30";
             cancel.height="30";
             cancel.style.cssText = `
@@ -334,7 +334,7 @@ testiarrow.addEventListener('mouseenter', function() {
             
 
             let revimg = document.createElement('img');
-            revimg.src="/beforeloginHome/revvec.png";
+            revimg.src="/assests/revvec.png";
             revimg.width=400;
             revimg.height=400;
             revimg.style.cssText=`
@@ -481,7 +481,7 @@ searchBar.style.backgroundColor="white";
 searchBar.style.borderRadius = "10px"
 searchBar.style.height="35px";
 let search = document.createElement('img');
-search.src="/beforeloginHome/search.png";
+search.src="/assests/search.png";
 search.width=19;
 search.height=21;
 search.style.cssText = `
@@ -508,7 +508,7 @@ z-index:300;
 // searchinput.
 
 let map = document.createElement('img');
-map.src= "/beforeloginHome/map.png";
+map.src= "/assests/map.png";
 map.width=17;
 map.height=18;
 map.style.cssText = `
@@ -535,8 +535,8 @@ z-index:5000;
 `;
 
 but.addEventListener('click',function(){
-    if(searchinput.value=="kerala"||searchinput.value=="Kerala"||searchinput.value=="KERALA"){
-        location.href="/beforeloginHome/kerala.html";
+    if(searchinput.value.toLowerCase()=="kerala"){
+        location.href="/kerala";
     }
     else{
         let warndiv = document.createElement('div');
@@ -976,7 +976,7 @@ kerala.appendChild(kdes);
 
 kerala.addEventListener('click',function(){
     if(kname.textContent==jsObject.monthTimeline.places.kerala.title){
-               location.href="/beforeloginHome/kerala.html";
+               location.href="/kerala";
     }
 });
 

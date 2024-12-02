@@ -53,6 +53,6 @@ async function delete_group(id) {
 
 function update_group(id){
     localStorage.setItem('gid',id);
-    window.location.href="/avai_grp/update.html";
+    location.href="/update";
 }
 
