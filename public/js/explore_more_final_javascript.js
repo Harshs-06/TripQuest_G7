@@ -1,4 +1,4 @@
-fetch("/TripQuest_G7/tripquest/explore_more_final_data.json")
+fetch("/explore_more_final_data.json")
 .then(response=>response.json())
 .then(obj=>{
     let nav = document.querySelector(".navigation");

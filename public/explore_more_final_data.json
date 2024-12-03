@@ -1,7 +1,7 @@
 {
     "navigation": {
         "logo": {
-            "src": "/TripQuest_G7/public/assests/logo.png",
+            "src": "/assests/logo.png",
             "alt": "TripQuest Logo"
         },
         "title": "TripQuest",
@@ -13,7 +13,7 @@
 
     "mainContent": {
         "image": {
-                "src": "/TripQuest_G7/public/assests/peeps.png",
+                "src": "/assests/peeps.png",
                 "alt": "Group of people on boat"
         },
         "container": {
@@ -24,7 +24,7 @@
     },
 
     "searchBar": {
-        "locationIcon": "/TripQuest_G7/public/assests/pindrop.png",
+        "locationIcon": "/assests/pindrop.png",
         "placeholder": "Anywhere",
         "buttonText": "Find"
     },
@@ -40,7 +40,7 @@
     },
 
     "packages":{
-        "starimage":"/TripQuest_G7/public/assests/star12.png",
+        "starimage":"/assests/star12.png",
         "label":"Tour Packages",
         "heading":"Top Tour Packages",
         "text":"Discover top tour packages crafted to fit your budget—embrace adventure, dive into local culture, and create unforgettable experiences without overspending!"    
@@ -77,7 +77,7 @@
         ],
     
     "filter":{
-        "image":"/TripQuest_G7/public/assests/filter.png",
+        "image":"/assests/filter_panel.png",
         "placeholdermin":"Min Budget",
         "placeholdermax":"Max Budget"
     },
@@ -91,7 +91,7 @@
                     "Date": "22-11-2024",
                     "datetime": "22 November",
                     "Price": "₹ 15,000",
-                    "image": "/TripQuest_G7/public/assests/amber_fort.png"
+                    "image": "/assests/amber_fort.png"
                 },
                 {
                     "Name": "City Palace, Jaipur",
@@ -99,7 +99,7 @@
                     "Date": "22-11-2024",
                     "datetime": "22 November",
                     "Price": "₹ 12,000",
-                    "image": "/TripQuest_G7/public/assests/city_palace.png"
+                    "image": "/assests/city_palace.png"
                 },
                 {
                     "Name": "Lake Pichola, Udaipur",
@@ -107,7 +107,7 @@
                     "Date": "23-11-2024",
                     "datetime": "23 November",
                     "Price": "₹ 18,000",
-                    "image": "/TripQuest_G7/public/assests/pushkar_lake.png"
+                    "image": "/assests/pushkar_lake.png"
                 },
                 {
                     "Name": "Jal Mahal, Jaipur",
@@ -115,7 +115,7 @@
                     "Date": "21-11-2024",
                     "datetime": "21 November",
                     "Price": "₹ 10,000",
-                    "image": "/TripQuest_G7/public/assests/jal_mahal.png"
+                    "image": "/assests/jal_mahal.png"
                 },
                 {
                     "Name": "Jaisalmer Fort, Jaisalmer",
@@ -123,7 +123,7 @@
                     "Date": "25-11-2024",
                     "datetime": "25 November",
                     "Price": "₹ 16,000",
-                    "image": "/TripQuest_G7/public/assests/jaisalmer_fort.png"
+                    "image": "/assests/jaisalmer_fort.png"
                 },
                 {
                     "Name": "Pushkar Lake, Pushkar",
@@ -131,7 +131,7 @@
                     "Date": "26-11-2024",
                     "datetime": "26 November",
                     "Price": "₹ 9,500",
-                    "image": "/TripQuest_G7/public/assests/pushkar_lake.png"
+                    "image": "/assests/pushkar_lake.png"
                 },
                 {
                     "Name": "Kumbhalgarh Fort, Rajsamand",
@@ -165,7 +165,7 @@
                     "Date": "21-12-2024",
                     "datetime": "21 December",
                     "Price": "₹ 12,000",
-                    "image": "/TripQuest_G7/public/assests/jim_corbett.png"
+                    "image": "/assests/jim_corbett.png"
                 },
                 {
                     "Name": "Kedarnath Temple, Kedarnath",
