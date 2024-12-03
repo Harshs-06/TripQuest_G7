@@ -36,3 +36,6 @@ app.get('/signinpage',(req,res)=>{
 app.get('/update',(req,res)=>{
     res.render('update');
 });
+app.get('/Explore_more_final',(req,res)=>{
+    res.render('Explore_more_final');
+});

@@ -1346,7 +1346,7 @@ right:-120px;
 exbut.insertAdjacentElement('beforeend',exbutarr);
 
 exbut.addEventListener('click',function() {
-    location.href="/tripquest/Explore_more_final.html";
+    location.href="/Explore_more_final";
 });
 
 // let aboutdiv = document.querySelector(".aboutUs");
